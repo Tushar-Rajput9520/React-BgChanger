@@ -1,12 +1,71 @@
-# React + Vite
+🖼️ Background Color Changer (React + Vite)
+🔷 Project Description
+Background Color Changer is a simple React-based web application built using Vite that allows users to dynamically change the background color of the screen with just one click. It's a beginner-friendly project that demonstrates the use of React Hooks, state management (useState), and basic Tailwind CSS styling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⚙️ Tech Stack
+⚛️ React – For building the user interface
 
-Currently, two official plugins are available:
+⚡ Vite – Fast development and build tool
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Tailwind CSS – For utility-first styling
 
-## Expanding the ESLint configuration
+🧠 React Hooks (useState) – To manage and update the background color dynamically
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+✅ Full-screen responsive layout
+
+✅ Real-time background color change
+
+✅ Clean and minimal design using Tailwind
+
+✅ Fast loading with Vite
+
+✅ Simple and beginner-friendly code
+
+📁 Folder Structure
+arduino
+Copy
+Edit
+project/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+🧪 How to Run Locally
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/Tushar-Rajput9520/React-BgChanger.git
+cd React-BgChanger
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Open in browser: http://localhost:5173
+
+📌 Use Case
+This project is perfect for:
+
+React beginners learning useState
+
+Practicing Tailwind CSS
+
+Exploring fast setups with Vite
+
+Creating small utilities and fun UI interactions
